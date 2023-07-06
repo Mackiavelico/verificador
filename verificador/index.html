@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="calcular.js"></script>
+</head>
+<body>
+    <h1>Calculadora del Dígito Verificador</h1>
+    <label for="rut">Ingrese el RUT:</label>
+    <input type="text" id="rut" required placeholder="sin puntos ni guiones">
+    <br><br>
+    <button onclick="calcularDigitoVerificador()">Calcular</button>  <!-- llama a ejecutar el js-->
+    <br><br>
+    <div id="resultado"></div> <!-- Muestra el resultado obtenido en el js-->
+    
+</body>
+</html>
